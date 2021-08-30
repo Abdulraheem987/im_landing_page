@@ -3,9 +3,26 @@ import styled from 'styled-components'
 
 const Hero = styled.div`
 .content_container {
-  margin-left: ${props => props.devicecal ? `${props.devicecal}px` : '10%'};
+  margin-left: 30%;
   margin-top: 20px;
 }
+
+@media(min-width: 320px) and (max-width: 830px){
+  .content_container{
+    margin-left: 8% !important;
+  }
+}
+@media(min-width: 320px) and (max-width: 876px) and (orientation: landscape){
+  .content_container{
+    margin-left: 16% !important;
+  }
+}
+
+// @media(min-width: 1024px) and (max-width: 1200px){
+//   .content_container{
+//     margin-left: 13% !important;
+//   }
+// }
 
 .mobile_banner_content {
   margin-left: 10px;
@@ -17,7 +34,7 @@ const Hero = styled.div`
   font-weight: 500px;
 }
 .hero_banner_container {
-  background: red;
+  background: #de0100 !important;
   height: 300px;
 }
 .watermark_logo {

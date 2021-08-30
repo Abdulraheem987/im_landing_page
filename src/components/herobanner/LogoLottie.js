@@ -40,7 +40,7 @@ export default function LogoLottie(props) {
 
   return (
     <>
-      {window.innerWidth > 976 ? (
+      {typeof window !== 'undefined' && window.innerWidth > 976 ? (
         <>
           <div className="imLogo-container">
             <Lottie

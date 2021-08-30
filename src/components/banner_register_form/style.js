@@ -3,13 +3,46 @@ import styled from 'styled-components'
 
 const RegisterFormContainer = styled.div`
 .search_area_container{
-    background-color: lightblue;
-    width: 90%;
+    background-color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     height: 130px;
     border-radius: 20px;
     position: relative;
     bottom: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 15px 0px rgb(179 179 179 / 60%);
+  }
 
-  }`
+.search_area_container input{
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.form-control:focus{
+  -webkit-box-shadow:none !important;
+  box-shadow: none !important;
+}
+.submit_btn:focus{
+  -webkit-box-shadow:none !important;
+  box-shadow: none !important;
+}
+
+  @media(min-width: 320px) and (max-width: 830px){
+    .search_area_container{
+      width: 100% !important;
+    }
+  }
+
+  .submit_btn{
+    width: 100%;
+    background: #0d0d40;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  `
 
 export default RegisterFormContainer
