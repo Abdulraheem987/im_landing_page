@@ -7,7 +7,7 @@ const RegisterFormContainer = styled.div`
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    height: 130px;
+    // height: 130px;
     border-radius: 20px;
     position: relative;
     bottom: 50px;
@@ -28,11 +28,24 @@ const RegisterFormContainer = styled.div`
   box-shadow: none !important;
 }
 
-  @media(min-width: 320px) and (max-width: 830px){
+
+.m-sm{
+  
+}
+
+@media(min-width: 320px) and (max-width: 976px){
     .search_area_container{
       width: 100% !important;
     }
+    .m-sm{
+      margin-top: 1rem;
+    }
+}
+@media(min-width: 320px) and (max-width: 976px){
+  .m-sm{
+    margin-top: 1rem;
   }
+}
 
   .submit_btn{
     width: 100%;
@@ -41,6 +54,7 @@ const RegisterFormContainer = styled.div`
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
+    border-radius: 12px;
   }
   
   `

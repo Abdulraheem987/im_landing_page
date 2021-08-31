@@ -19,7 +19,7 @@ const ServiceSectionContainer = styled.div`
     margin: 20px 0;
   }
   .service_card p{
-    // font-size: 0.85vw;
+    font-size: 17px;
     // line-height: 1.5vw;
   }
   `

@@ -14,7 +14,7 @@ const ServiceSection  = () => {
           <div className="service_card col-lg-3 col-md-12 col-sm-12 col-xs-12">
             <div className="d-flex justify-content-center align-items-center flex-column">
               <img src={searchicon} />
-              <h5>Search Investment Listing</h5>
+              <h5>Search Investment Listings</h5>
               <p align='center'>
                 Search for investment using your criteria, including by industy, asset className, primary objectives, investor type or enter key workds to find listings which may be of interest.
               </p>

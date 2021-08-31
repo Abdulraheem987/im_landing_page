@@ -7,23 +7,17 @@ const Hero = styled.div`
   margin-top: 20px;
 }
 
-@media(min-width: 320px) and (max-width: 830px){
-  .content_container{
-    margin-left: 8% !important;
-  }
-}
-@media(min-width: 320px) and (max-width: 876px) and (orientation: landscape){
-  .content_container{
-    margin-left: 16% !important;
+@media(min-width: 320px) and (max-width: 976px){
+  .banner_container{
+    width: 100% !important;
   }
 }
 
-// @media(min-width: 1024px) and (max-width: 1200px){
-//   .content_container{
-//     margin-left: 13% !important;
-//   }
-// }
-
+.banner_container{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .mobile_banner_content {
   margin-left: 10px;
   color: white;
@@ -34,8 +28,8 @@ const Hero = styled.div`
   font-weight: 500px;
 }
 .hero_banner_container {
-  background: #de0100 !important;
   height: 300px;
+  width: 100% !important;
 }
 .watermark_logo {
   height: 100%;
